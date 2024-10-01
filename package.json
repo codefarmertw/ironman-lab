@@ -1,8 +1,10 @@
 {
   "name": "ironman-lab",
+  "type": "module",
   "version": "1.0.0",
   "scripts": {
     "build": "node esbuild.config.mjs",
+    "esbuild:split": "node esbuild.split.mjs",
     "chokidar": "node src/chokidar.js"
   },
   "license": "ISC",

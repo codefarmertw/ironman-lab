@@ -10,11 +10,17 @@ $ pnpm install
 
 ## Usage
 
-可嘗試 esbuild 相關設定：
+可嘗試 esbuild 基本相關設定：
 
 ```bash
 $ pnpm run build
 ```
+
+可嘗試 esbuild 在 code splitting 的載入順序問題：
+```bash
+$ pnpm run esbuild:split
+```
+
 
 可嘗試 Chokidar 套件功能：
 ```bash
